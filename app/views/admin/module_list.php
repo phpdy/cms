@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>模块列表</title>
-<link rel="StyleSheet" href="/css/style.css" type="text/css" />
+<link rel="StyleSheet" href="manager/css/style.css" type="text/css" />
 </head>
 <body>
 <div class="content">

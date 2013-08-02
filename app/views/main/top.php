@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>51wan</title>
-<link href="./css/admin/frame.css" rel="stylesheet" type="text/css" />
+<link href="manager/css/frame.css" rel="stylesheet" type="text/css" />
 </head>
 <body class="showmenu">
 <div class="pagemask"></div>
@@ -11,7 +11,7 @@
 <div class="head">
 <div class="top">
 <div class="top_logo">
-	<img src="./css/admin/logo.jpg"  height="37" />
+	<img src="manager/images/logo.jpg"  height="37" />
 </div>
 <div class="top_link">
 <ul>

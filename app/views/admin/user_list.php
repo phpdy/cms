@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8" />
 <title>用户列表</title>
-<link rel="stylesheet" href="/css/style.css" />
-<script src="/js/jquery-1.7.1.js" type="text/javascript" charset="utf-8"></script>
+<link rel="stylesheet" href="manager/css/style.css" />
+<script src="manager/js/jquery-1.7.1.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
 <div class="content">

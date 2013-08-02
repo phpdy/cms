@@ -2,8 +2,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>修改密码</title>
-<link rel="StyleSheet" href="/css/style.css" type="text/css"/>
-<script src="http://images.51wan.com/global/js/jquery.min.js"></script>
+<link rel="StyleSheet" href="manager/css/style.css" type="text/css"/>
+<script src="manager/js/jquery-1.7.1.js"></script>
 <script type="text/javascript" src="js/admin.js"></script>
 </head>
 <body>

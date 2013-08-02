@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>用户登录</title>
-<link href="css/manager.css" rel="stylesheet" type="text/css" />
+<link href="manager/css/manager.css" rel="stylesheet" type="text/css" />
 <style type="text/css">
 .login{
 	height:30px;
@@ -32,7 +32,7 @@
 </form>
 
 </body>
-<script language="javascript" type="text/javascript" src="js/jquery-1.7.1.js" ></script>
+<script language="javascript" type="text/javascript" src="manager/js/jquery-1.7.1.js" ></script>
 <script language="javascript" type="text/javascript" >
 $(function() {
 	$('input[name="username"]').focus(function(){
