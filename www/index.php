@@ -13,4 +13,4 @@ if (empty($_GET['action'])) {
 	$_GET['action'] = 'default';
 }
 
-require dirname(dirname(dirname(__FILE__))) . DIRECTORY_SEPARATOR . 'frame' .DIRECTORY_SEPARATOR . 'start.php';
+require dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . 'frame' .DIRECTORY_SEPARATOR . 'start.php';

@@ -17,6 +17,8 @@ define('APP_PATH', ROOT_PATH . 'app' . DS);
 define('LIB_PATH', ROOT_PATH . 'lib'. DS);
 //日志目录
 define('LOG_PATH', ROOT_PATH . 'log'. DS);
+//WWW目录
+define('WWW_PATH', ROOT_PATH . 'www'. DS);
 
 //配置文件目录
 define('CONFIG_PATH', APP_PATH . 'config'. DS);
@@ -28,8 +30,6 @@ define('SERVICE_PATH', APP_PATH . 'services'. DS);
 define('MODEL_PATH', APP_PATH . 'models'. DS);
 //VIEW目录
 define('VIEW_PATH', APP_PATH . 'views'. DS);
-//WWW目录
-define('WWW_PATH', APP_PATH . 'www'. DS);
 
 //设置时间
 date_default_timezone_set('Asia/Shanghai');
