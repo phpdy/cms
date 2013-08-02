@@ -27,23 +27,6 @@ class Log {
 		Log::log4php()->info($info);
 	}
 	
-	private static function write($info,$type){
-		$info = date('Y-m-d H:i:m') . "\t" . $type . "\t" . $info ."\r\n" ;
-		
-		$filename  = $type."_".date("Ymd").".log";
-		
-		$logPath   = LOG_PATH . $type . DS ;
-		if(!file_exists($logPath)){
-			mkdir($logPath,"0777",true);
-		}
-		$logFile   = $logPath . $filename;
-		$fp	       = fopen($logFile,"a+");
-		flock($fp, LOCK_EX);
-		fwrite($fp,$info);
-		flock($fp,LOCK_UN);
-		fclose($fp);
-	}
-	
 	/**
 	 * 获取log4php的对象
 	 *
