@@ -1,6 +1,9 @@
 <?php
-
-class model_type_model extends BaseModel {
+/**
+ * 模版分类管理
+ *
+ */
+class mark_type_model extends BaseModel {
 	
 	/**
 	 * insert
@@ -61,10 +64,10 @@ class model_type_model extends BaseModel {
 		$start = microtime(true)*1000 ;
 		$log = __CLASS__."|".__FUNCTION__ ;
 		
-		$id = $data['id'] ;
 		$params = array() ;
 		$sql = "select * from mark_model_type where 1=1" ;
 		
+		$id = $data['id'] ;
 		if (!empty($id)){
 			$sql .= " and id=?" ;
 			$params[] = $id ;
