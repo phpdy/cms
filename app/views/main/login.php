@@ -24,10 +24,10 @@
 <form action="?action=login" name="login" method="post">
 <div align="center">
 	<div class="login"></div>
-	<div class="login" align="left"><img alt="login" src="images/loginbox_dl.jpg"></div>
+	<div class="login" align="left"><img alt="login" src="manager/images/loginbox_dl.jpg"></div>
 	<div class="login">用户名：&nbsp;<input type="text" name="username" value="用户名" class="text"></div>
 	<div class="login">密&nbsp;&nbsp;&nbsp;码：&nbsp;<input type="password" name="password" class="text"></div>
-	<div class="login" align="right"><input type="image" name="submit" src="images/login_button.jpg"/></div>
+	<div class="login" align="right"><input type="image" name="submit" src="manager/images/login_button.jpg"/></div>
 </div>
 </form>
 
